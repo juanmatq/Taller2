@@ -86,7 +86,8 @@ game_restart();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(spr_bottom, -1, 0, 404); //spr_bottom height = 76--&gt; 404 = 480-76
+            <string>
+draw_sprite(spr_bottom, -1, 0, 404); //spr_bottom height = 76--&gt; 404 = 480-76
 draw_set_colour(c_yellow);
 draw_text(180,440,score);
 
